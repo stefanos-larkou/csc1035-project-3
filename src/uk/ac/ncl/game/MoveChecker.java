@@ -69,7 +69,7 @@ public class MoveChecker {
     /**
      * Returns potential moves on the board for the specified colour
      *
-     * @param
+     * @param colour - colour of the current player
      * @return pieces for which there exist valid moves
      */
     public ArrayList<Cell> findPotentialMoves(CellStatus colour) {
